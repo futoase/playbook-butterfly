@@ -1,6 +1,8 @@
 playbook-butterfly
 ------------------
 
+[![Build Status](https://travis-ci.org/futoase/playbook-butterfly.svg?branch=master)](https://travis-ci.org/futoase/playbook-butterfly)
+
 # How will apply this playbook?
 
 You execute this command.
