@@ -1,6 +1,8 @@
 ---
 - name: get butterfly from github repository
-  git: repo=https://github.com/paradoxxxzero/butterfly.git version=master dest=/var/butterfly 
+  git: repo=https://github.com/paradoxxxzero/butterfly.git 
+       version=master 
+       dest=/var/butterfly 
 
 - name: setup of requirements library for the butterfly
   shell: chdir=/var/butterfly pip2.7 install -r requirements.txt

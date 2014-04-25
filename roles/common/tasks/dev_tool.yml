@@ -1,3 +1,4 @@
 ---
 - name: install the DevelopmentTools group
-  yum: name="@Development Tools" state=present
+  yum: name="@Development Tools" 
+       state=present
